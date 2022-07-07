@@ -8,7 +8,6 @@ public class DragAndDropTests {
     void dragAndDropTests() {
         //- Откройте https://the-internet.herokuapp.com/drag_and_drop
         open("https://the-internet.herokuapp.com/drag_and_drop");
-
         //- Переесите прямоугольник А на место В
         $("#column-a").dragAndDropTo($("#column-b"));
         //- Проверьте, что прямоугольники действительно поменялись
